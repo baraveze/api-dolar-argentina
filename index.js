@@ -14,7 +14,7 @@ app.get('/', async (req, res) => {
     }
 })
 
-// Settings
+// Settings this is a comment
 app.set('port', PORT);
 
 app.use(helmet())
